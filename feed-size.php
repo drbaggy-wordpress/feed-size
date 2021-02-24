@@ -20,12 +20,9 @@
 |     <http://www.gnu.org/licenses/>.
 +----------------------------------------------------------------------
 
-# Support functions to make ACF managed pages easier to render..
-# This is a very simple class which defines templates {and an
-# associated template language which can then be used to render
-# page content... more easily...}
-#
-# See foot of file for documentation on use...
+# Simple extension to wordpress to be able to pass the number
+# of posts wanted from a feed in the URL, by adding a simple '?limit='
+# GET parameter.
 #
 # Author         : js5
 # Maintainer     : js5
